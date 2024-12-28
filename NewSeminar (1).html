@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Seminar</title>
+    <body style="background-color: rgb(214, 210, 210);">
+        <header style="text-align: center;">
+            <h1>Create New Seminar</h1>
+        </header>
+    </body>
+
+</head>
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form>
+  <div class="form-group row">
+    <label for="code" class="col-4 col-form-label">Kode</label> 
+    <div class="col-8">
+      <input id="code" name="code" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text" class="col-4 col-form-label">Nama Kegiatan</label> 
+    <div class="col-8">
+      <input id="text" name="text" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="calendar" class="col-4 col-form-label">Tanggal Mulai</label> 
+    <div class="col-8">
+      <div class="input-group">
+        <input id="calendar" name="calendar" placeholder="9 January 2025" type="text" class="form-control"> 
+        <div class="input-group-append">
+          <div class="input-group-text">
+            <i class="fa fa-calendar"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="date" class="col-4 col-form-label">Tanggal Akhir</label> 
+    <div class="col-8">
+      <div class="input-group">
+        <input id="date" name="date" placeholder="13 January 2025" type="text" class="form-control"> 
+        <div class="input-group-append">
+          <div class="input-group-text">
+            <i class="fa fa-calendar"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text" class="col-4 col-form-label">Biaya</label> 
+    <div class="col-8">
+      <input id="text" name="text" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text1" class="col-4 col-form-label">Tempat</label> 
+    <div class="col-8">
+      <input id="text1" name="text1" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text2" class="col-4 col-form-label">Latitude</label> 
+    <div class="col-8">
+      <input id="text2" name="text2" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text3" class="col-4 col-form-label">Longitude</label> 
+    <div class="col-8">
+      <input id="text3" name="text3" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="select" class="col-4 col-form-label">Jenis Kegiatan</label> 
+    <div class="col-8">
+      <select id="select" name="select" class="custom-select">
+        <option value="Select">Select</option>
+        <option value="APA">APA</option>
+        <option value="Kenyamanan">Kenyamanan</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="PIC" class="col-4 col-form-label">PIC</label> 
+    <div class="col-8">
+      <input id="PIC" name="PIC" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="textarea" class="col-4 col-form-label">Deskripsi</label> 
+    <div class="col-8">
+      <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+    </div>
+  </div> 
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="submit" class="btn btn-primary">Simpan</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
